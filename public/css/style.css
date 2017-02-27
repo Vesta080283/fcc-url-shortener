@@ -1,0 +1,15 @@
+body {
+	font-family: 'Bitter', serif;
+}
+
+dt:nth-of-type(even) {
+	padding-top: 1em;
+}
+
+footer i {
+	color: #333;
+}
+
+footer i:hover {
+	color: #333C;
+}
