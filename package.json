@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.1",
+    "hashids": "^1.1.1",
     "mongoose": "^4.8.5",
     "mongoose-auto-increment": "^5.0.1",
     "valid-url": "^1.0.9"

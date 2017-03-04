@@ -26,7 +26,7 @@ module.exports = function(){
 	process.on('SIGINT', () => {
 
 		mongoose.connection.close(() => {
-			console.log('Database disconnected by the end of application');
+			console.log('Database disconnected due the end of application');
 			process.exit(0);
 		});
 
